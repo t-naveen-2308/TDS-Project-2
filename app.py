@@ -763,12 +763,11 @@ async def analyze_get_info():
 # -----------------------------
 # ---- Add these imports near other imports at top of app.py ----
 import asyncio
-import httpx
 import importlib.metadata
 import traceback
 from concurrent.futures import ThreadPoolExecutor
 from functools import partial
-from datetime import datetime, timedelta
+from datetime import datetime
 import socket
 import platform
 import psutil
