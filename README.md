@@ -32,12 +32,7 @@ Perfect for **business analysts, researchers, and data enthusiasts** who want **
 | ⚡ **Real-Time Results**     | Progress tracking with fast computations           |
 
 ---
-## 👤 **Author & Credits**
-
-Developed with ❤️ by **[Gaurav Tomar](https://www.linkedin.com/in/gaurav-tomar-630b2a316)**
-
----
-## 🚀 **Quick Start for more detail read `DEPLOYMENT_GUIDE.md` **
+## 🚀 **Quick Start**
 
 ### **1️⃣ Clone the Repository**
 
@@ -159,16 +154,6 @@ Then open **[http://localhost:8000](http://localhost:8000)** in your browser.
 * **Local** → `python -m uvicorn app:app --reload`
 * **Production** → `code in entrypoint.sh`
 * **Docker**
-
-```dockerfile
-FROM python:3.9-slim
-WORKDIR /app
-COPY requirements.txt .
-RUN pip install -r requirements.txt
-COPY . .
-EXPOSE 8000
-CMD ["python", "app.py"]
-```
 
 ---
 
