@@ -1,0 +1,10 @@
+groq
+fastapi 
+uvicorn 
+docker 
+requests 
+pandas 
+matplotlib 
+seaborn 
+duckdb
+python-multipart

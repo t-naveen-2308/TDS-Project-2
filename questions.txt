@@ -1,0 +1,6 @@
+Scrape https://en.wikipedia.org/wiki/List_of_highest-grossing_films
+Answer as JSON array:
+1. How many $2 bn movies before 2023?
+2. Earliest film over $1.5 bn?
+3. Correlation between Rank and Peak?
+4. Scatterplot of Rank vs Peak with dotted red regression line as base64 PNG.
