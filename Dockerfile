@@ -14,11 +14,8 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY app.py .
 COPY index.html .
-COPY entrypoint.sh .
 
 COPY .env* ./
-
-RUN chmod +x entrypoint.sh
 
 EXPOSE 8000
 
